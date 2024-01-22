@@ -29,7 +29,7 @@ import (
 
 const (
 	// AnnotationKey is the key used to store the hash of the template object.
-	AnnotationKey = "environment-manager.zymatik.com/template-hash"
+	AnnotationKey = "controller-essentials.pecke.tt/template-hash"
 )
 
 func GetHash(obj runtime.Object) (string, error) {
